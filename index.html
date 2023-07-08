@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn Layout</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Our custom CSS -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+	<header class="container flex">
+		<div>
+		  <img class="logo-img" src="./assets/images/logo.png" alt="tameer logo" class="logo">
+		</div>
+		<nav>
+			<ul class="primary-navigation underline-indicators flex">
+				<li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span>00</span>Home</a>
+				<li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="grid.html"><span>01</span>Grid</a>
+				<li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="flex.html"><span>02</span>Flex</a>
+				<li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"><span>03</span>Technology</a>
+			</ul>
+		</nav>
+	  </header>
+
+	  <br />
+	  <br />
+	  <br />
+
+
+
+
+    <div class="container flow">
+      <h1 class="uppercase">Learn HTML-CSS-JS</h1>
+      <br />
+      <br />
+      <br />
+      <h2 class="numbered-title"><span>01 </span>Layout</h2>
+      <section class="flow" id="typography" style="margin: 4rem 0">
+        <div class="flex">
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem">
+            <div>
+              <p class="text-accent">Heading 2 - Bellefair Regular - 100px</p>
+              <p class="fs-800 ff-serif uppercase">Grid</p>
+            </div>
+          </div>
+
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem">
+            <div>
+              <p class="text-accent">Grid layout module (css)</p>
+              <p>
+                This CSS module defines a two-dimensional grid-based layout
+                system, optimized for user interface design. In the grid layout
+                model, the children of a grid container can be positioned into
+                arbitrary slots in a predefined flexible or fixed-size layout
+                grid.
+              </p>
+              <p>
+                Grid Layout is a new layout model for CSS that has powerful
+                abilities to control the sizing and positioning of boxes and
+                their contents. Unlike Flexible Box Layout, which is
+                single-axis–oriented, Grid Layout is optimized for 2-dimensional
+                layouts: those in which alignment of content is desired in both
+                dimensions.
+              </p>
+              <br />
+              <img src="./assets/images/flex-layout.png" alt="flex-example" />
+              <p class="text-accent">
+                <span style="font-weight: bold">Figure 1:</span> Representative
+                Flex Layout Example
+              </p>
+              <br />
+              <img src="./assets/images/grid-layout.png" alt="grid-example" />
+              <p class="text-accent">
+                <span style="font-weight: bold">Figure 2:</span> Representative
+                Grid Layout Example
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <section class="flow" id="typography" style="margin: 4rem 0">
+        <div class="flex">
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem">
+            <div>
+              <p class="text-accent">Heading 2 - Bellefair Regular - 100px</p>
+              <p class="fs-800 ff-serif uppercase">Flexbox</p>
+            </div>
+          </div>
+
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem">
+            <div>
+              <p class="text-accent">Flexible Box (Flexbox) Layout</p>
+              <p>
+                CSS Flexible Box Layout, commonly known as Flexbox,[2] is a CSS
+                3 web layout model.[4] It is in the W3C's candidate
+                recommendation (CR) stage.[2] The flex layout allows responsive
+                elements within a container to be automatically arranged
+                depending on viewport (device screen) size.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
